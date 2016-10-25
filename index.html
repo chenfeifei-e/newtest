@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			#page{
+				width: 600px;
+				height: 600px;
+				position: relative;
+				margin: 20px auto;
+				background: black;
+			}
+			.player{
+				width: 450px;
+				height: 115px;
+				position: absolute;
+				bottom: 10px;
+				left: 75px;
+			}
+			.other{
+				width: 115px;
+				height: 450px;
+				position: absolute;
+				top: 20px;
+				left: 20px;
+			}
+			.three{
+				width: 115px;
+				height: 450px;
+				position: absolute;
+				top: 20px;
+				right: 20px;
+			}
+			.pai{
+				background: url(img/new1.jpg) no-repeat left top;
+				width: 75px;
+				height: 115px;
+				position: absolute;
+			}
+			#btn{
+				width: 50px;
+				height: 30px;
+				text-align: center;
+				line-height: 30px;
+				background: hotpink;
+				border-radius: 5px;
+				color: black;
+				position: absolute;
+				bottom: 160px;
+				left: 50%;
+				margin-left: -25px;
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="page">
+			<div class="player"></div>
+			<div class="other"></div>
+			<div class="three"></div>
+			<span id="btn">出牌</span>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+	<script type="text/javascript" src="js/player.js" ></script>
+	<script type="text/javascript" src="js/other.js" ></script>
+	<script type="text/javascript" src="js/three.js" ></script>
+	<script src="js/main.js">
+	</script>
+</html>
